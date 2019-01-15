@@ -1,0 +1,53 @@
+body {
+    animation: colorchange 50s infinite;
+    
+}
+@keyframes colorchange
+			{
+			  0%   {background: red;}
+			  25%  {background: yellow;}
+			  50%  {background: tomato;}
+			  75%  {background: orange;}
+			  100% {background: red;}
+			}
+#mycalc {
+    text-align: center;
+    width: 360px;
+    position: relative;
+    left: 600px;
+    top: 200px;
+    background-color: beige;
+}
+input[type="button"], button{
+    width: 86px;
+    height: 50px;
+    margin: 2px 0    
+}
+#window {
+    font-size: 50px;
+}
+.result input {
+    width: 176px;
+    height: 50;
+}
+#equal {
+    background-color: #d84c73;
+    color: white;
+    border: 1px solid #d84c73;
+}
+#clear {
+    background-color: #34a7b2;
+    color: white;
+    border: 1px solid #34a7b2;
+}
+#plus, #minus, #multiply, #divide, #percent {
+    background-color: #55968f;
+    color: white;
+    border: 1px solid #55968f;
+    font-size: 16px;
+}
+input[type="text"]{
+    width: 99%;
+    height: 50px;
+    background-color: #c5c5c5;
+}
